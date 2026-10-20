@@ -4,7 +4,7 @@
 
 This is a single-page responsive portfolio website created as part of a lab assignment. The website showcases personal information, projects, skills, and contact details. It is built using **HTML**, and **CSS**.
 
-- URL Link to website portfolio: [Click Here](https://juwono136.github.io/bookstore-html-css/)
+- URL Link to website portfolio: [Click Here](https://adrianputraprasetio2002.github.io/Lab-Assignment-Responsive-Portfolio-Web/)
 - URL Link to website design: [Click Here](https://canva.link/8ufbfxt32d4zyap)
 
 ## 🎯 Purpose
