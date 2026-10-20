@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adrian – Designer &amp; Web Developer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <a class="logo" href="#home">Adrian</a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <label class="icon-btn" id="menu" for="nav-toggle">☰</label>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="photo"><img src="image.jpg" alt="Adrian"></div>
+    <div>
+      <h1>Hi, I’m Adrian</h1>
+      <h2>I’m a designer and web developer</h2>
+      <p>I’ve been building websites for the past few years, and I love making them both beautiful and easy to use.</p>
+      <ul class="social">
+        <li><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></li>
+      </ul>
+      <a class="btn" href="cv.pdf" download>Download CV</a>
+      <a class="btn ghost" href="#projects">See my work</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About me</h2>
+    <p class="sub">I design interfaces and build them myself, so what I draw is what ships.</p>
+    <div class="about">
+      <div class="card">
+        <p>I started out sketching layouts on paper and moved into code when I realised I wanted to see them work. Today I handle everything from wireframes to responsive front-end builds.</p>
+        <p>Outside of work you’ll find me photographing city streets and testing coffee shops for good Wi-Fi.</p>
+        <div class="stats">
+          <div><b>5+</b><span>Years experience</span></div>
+          <div><b>40</b><span>Projects shipped</span></div>
+          <div><b>25</b><span>Happy clients</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Skills</h3>
+        <div class="skill"><p>HTML &amp; CSS <span>95%</span></p><div class="track"><div class="fill" style="width:95%"></div></div></div>
+        <div class="skill"><p>JavaScript <span>85%</span></p><div class="track"><div class="fill" style="width:85%"></div></div></div>
+        <div class="skill"><p>UI / UX design <span>90%</span></p><div class="track"><div class="fill" style="width:90%"></div></div></div>
+        <div class="skill"><p>Figma <span>80%</span></p><div class="track"><div class="fill" style="width:80%"></div></div></div>
+        <div class="skill"><p>React <span>70%</span></p><div class="track"><div class="fill" style="width:70%"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="history">
+  <div class="wrap">
+    <h2>History</h2>
+    <p class="sub">Where I’ve worked and studied so far.</p>
+    <ol class="timeline">
+      <li class="card"><time>2024 – Present</time><h3>Senior Web Designer, Brightside Studio</h3><p>Lead design and front-end for client sites, and mentor two junior designers.</p></li>
+      <li class="card"><time>2022 – 2024</time><h3>Front-End Developer, Pixel &amp; Co.</h3><p>Built responsive marketing sites and a component library used across 12 projects.</p></li>
+      <li class="card"><time>2021 – 2022</time><h3>Freelance Designer</h3><p>Designed logos and landing pages for small businesses and startups.</p></li>
+      <li class="card"><time>2017 – 2021</time><h3>B.Sc. Visual Communication Design</h3><p>Graduated with honours; thesis on accessible web interfaces.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p class="sub">This is my project i build back in 2021</p>
+    <div class="card proj">
+      <div class="thumb"><img src="images.jpg" alt="Bloom Florist"></div>
+      <div class="body">
+        <h3>Bloom Florist</h3>
+        <p>A website to order some flowers and delivered it into location place</p>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="sub">Have a project in mind? Send me a message and I’ll reply within two days.</p>
+    <form action="mailto:you@example.com" method="post" enctype="text/plain">
+      <label>Your name<input name="name" required></label>
+      <label>Your email<input type="email" name="email" required></label>
+      <label>Message<textarea name="msg" rows="5" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+
+<footer>© 2026 Adrian. All rights reserved.</footer>
+
+</body>
+</html>
